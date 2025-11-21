@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2329672189540250066}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GreenBlock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46,6 +46,10 @@ PrefabInstance:
     - target: {fileID: 644760614357222598, guid: c3a1a7544dcb26b4fbb5c67472e126c7, type: 3}
       propertyPath: m_Name
       value: SingleElement
+      objectReference: {fileID: 0}
+    - target: {fileID: 644760614357222598, guid: c3a1a7544dcb26b4fbb5c67472e126c7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1830281562073747881, guid: c3a1a7544dcb26b4fbb5c67472e126c7, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -125,6 +129,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SingleElement (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 644760614357222598, guid: c3a1a7544dcb26b4fbb5c67472e126c7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1830281562073747881, guid: c3a1a7544dcb26b4fbb5c67472e126c7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -203,6 +211,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SingleElement (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 644760614357222598, guid: c3a1a7544dcb26b4fbb5c67472e126c7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1830281562073747881, guid: c3a1a7544dcb26b4fbb5c67472e126c7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -280,6 +292,10 @@ PrefabInstance:
     - target: {fileID: 644760614357222598, guid: c3a1a7544dcb26b4fbb5c67472e126c7, type: 3}
       propertyPath: m_Name
       value: SingleElement
+      objectReference: {fileID: 0}
+    - target: {fileID: 644760614357222598, guid: c3a1a7544dcb26b4fbb5c67472e126c7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1830281562073747881, guid: c3a1a7544dcb26b4fbb5c67472e126c7, type: 3}
       propertyPath: m_Materials.Array.data[0]
