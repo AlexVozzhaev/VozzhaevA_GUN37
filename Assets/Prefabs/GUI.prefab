@@ -111,9 +111,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5713094078120495270}
     m_Modifications:
+    - target: {fileID: 2282050760569335112, guid: 7515c8b8e867515418c13ca51a8b5507, type: 3}
+      propertyPath: m_colorMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2282050760569335112, guid: 7515c8b8e867515418c13ca51a8b5507, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2282050760569335112, guid: 7515c8b8e867515418c13ca51a8b5507, type: 3}
+      propertyPath: m_enableVertexGradient
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4441166173890859167, guid: 7515c8b8e867515418c13ca51a8b5507, type: 3}
       propertyPath: m_Name
       value: CarnageIndicator
+      objectReference: {fileID: 0}
+    - target: {fileID: 5756935343034237335, guid: 7515c8b8e867515418c13ca51a8b5507, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 3.7200003
       objectReference: {fileID: 0}
     - target: {fileID: 8376699544524393071, guid: 7515c8b8e867515418c13ca51a8b5507, type: 3}
       propertyPath: m_Pivot.x
@@ -198,8 +214,36 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 448013618914359204, guid: 7515c8b8e867515418c13ca51a8b5507, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3982433991569667441}
   m_SourcePrefab: {fileID: 100100000, guid: 7515c8b8e867515418c13ca51a8b5507, type: 3}
+--- !u!1 &200156495312352832 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 448013618914359204, guid: 7515c8b8e867515418c13ca51a8b5507, type: 3}
+  m_PrefabInstance: {fileID: 355981487607710180}
+  m_PrefabAsset: {fileID: 0}
+--- !u!111 &3982433991569667441
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 200156495312352832}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 1c4bb7e74da4dec43a9d02ab86577f34, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 1c4bb7e74da4dec43a9d02ab86577f34, type: 2}
+  - {fileID: 7400000, guid: bc539822816cb024b84e332f31ead844, type: 2}
+  - {fileID: 7400000, guid: b75af6a9389ca944dba768e4a8bb4f8e, type: 2}
+  - {fileID: 7400000, guid: 0d34f0e7389808a44b9bf73d7f73cd05, type: 2}
+  - {fileID: 7400000, guid: 11be794951d74914c8a3551d1814fa22, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!224 &8120184313400822667 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8376699544524393071, guid: 7515c8b8e867515418c13ca51a8b5507, type: 3}
